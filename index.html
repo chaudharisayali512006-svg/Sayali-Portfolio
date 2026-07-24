@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sayali Chaudhari | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" href="Assets/SC logo.jpeg" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <div class="logo">Portfolio</div>
+
+        <div class="menu-btn" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <ul id="menu">
+
+    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+
+    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+
+    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+
+    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+
+    <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+
+    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+</ul>
+
+    </nav>
+
+    <!-- Home Section -->
+
+    <section class="hero reveal" id="home">
+
+        <img src="Assets/profile.jpg.jpeg" class="profile-img" alt="Profile">
+
+        <h1>Sayali Chaudhari</h1>
+
+        <p class="role">
+            AI/ML Enthusiast | IT Engineering Student
+            <span id="typing"></span>
+        </p>
+
+        <p class="intro">
+            Aspiring AI/ML Engineer passionate about building intelligent
+            solutions through Machine Learning, Data Analytics,
+            and Problem Solving.
+        </p>
+
+        <a href="Assets/resume.pdf.pdf" download>
+
+            <button>
+                Download Resume
+            </button>
+
+        </a>
+
+        <div class="social-buttons">
+
+            <a href="https://github.com/chaudharisayali512006-svg" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/sayali-chaudhari-098ba83a6?utm/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:chaudharisayali512006@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about reveal" id="about">
+
+        <h2 class="section-title">
+            About Me
+        </h2>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h3>
+                    Hello, I'm <span>Sayali Chaudhari</span>
+                </h3>
+
+                <p>
+                    I am an enthusiastic Information Technology student
+                    passionate about Artificial Intelligence,
+                    Machine Learning and Data Analytics.
+
+                    I enjoy building real-world projects,
+                    learning new technologies,
+                    and continuously improving my technical
+                    and problem-solving skills.
+                </p>
+                <p>
+
+I have a strong desire to grow as an AI/ML professional by enhancing my programming skills, understanding emerging technologies, and gaining hands-on experience through projects and continuous learning
+                </p>
+
+            </div>
+<div class="about-cards">
+
+    <div class="glass-card">
+        <h4>🎓 Education</h4>
+        <p>B.E. Information Technology</p>
+    </div>
+
+    <div class="glass-card">
+        <h4>🤖 Domain</h4>
+        <p>Artificial Intelligence & Machine Learning</p>
+    </div>
+
+    <div class="glass-card">
+        <h4>🚀 Focus</h4>
+        <p>Python • Machine Learning • DSA</p>
+    </div>
+
+    <div class="glass-card">
+        <h4>🎯 Goal</h4>
+        <p>AI/ML Engineer</p>
+    </div>
+
+</div>
+
+        </div>
+
+    </section>
+<section id="skills" class="skills reveal">
+
+    <div class="section-title">
+        <span class="tag"> My Skills </span>
+        <h2>Technical Skills</h2>
+        <p>Technologies and tools I use to build AI solutions and modern web applications.</p>
+        <div class="title-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+        <!-- AI & MACHINE LEARNING -->
+        <div class="category-card purple">
+
+            <h3>
+                <i class="devicon-python-plain colored"></i>
+                AI & Machine Learning
+            </h3>
+
+            <div class="skill-box">
+
+                <i class="devicon-python-plain colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>Python</h4>
+                    <span>Automation • AI • Data Handling</span>
+                </div>
+
+                <div class="circle" data-percent="85">0%</div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <i class="devicon-tensorflow-original colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>Machine Learning</h4>
+                    <span>TensorFlow • Scikit-Learn</span>
+                </div>
+
+                <div class="circle" data-percent="80">0%</div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <i class="devicon-pandas-original colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>Data Analytics</h4>
+                    <span>Pandas • NumPy • Visualization</span>
+                </div>
+
+                <div class="circle" data-percent="75">0%</div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROGRAMMING LANGUAGES -->
+
+        <div class="category-card blue">
+
+            <h3>
+                <i class="devicon-c-plain colored"></i>
+                Programming Languages
+            </h3>
+
+            <div class="skill-box">
+
+                <i class="devicon-c-plain colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>C Programming</h4>
+                    <span>DSA • Pointers • Problem Solving</span>
+                </div>
+
+                <div class="circle" data-percent="85">0%</div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <i class="devicon-java-plain colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>Java</h4>
+                    <span>Core Java • OOP • Collections</span>
+                </div>
+
+                <div class="circle" data-percent="80">0%</div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <i class="devicon-python-plain colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>Python</h4>
+                    <span>Scripting • Automation • AI</span>
+                </div>
+
+                <div class="circle" data-percent="90">0%</div>
+
+            </div>
+
+        </div>
+    
+
+     <!-- WEB DEVELOPMENT -->
+
+        <div class="category-card green">
+
+            <h3>
+                <i class="devicon-html5-plain colored"></i>
+                Web Development
+            </h3>
+
+            <div class="skill-box">
+
+                <i class="devicon-html5-plain colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>HTML5</h4>
+                    <span>Semantic Structure • Responsive Layouts</span>
+                </div>
+
+                <div class="circle" data-percent="90">0%</div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <i class="devicon-css3-plain colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>CSS3</h4>
+                    <span>Flexbox • Grid • Animations</span>
+                </div>
+
+                <div class="circle" data-percent="85">0%</div>
+
+            </div>
+
+            <div class="skill-box">
+
+                <i class="devicon-javascript-plain colored skill-logo"></i>
+
+                <div class="skill-info">
+                    <h4>JavaScript</h4>
+                    <span>DOM • ES6 • Interactive UI</span>
+                </div>
+
+                <div class="circle" data-percent="80">0%</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TOOLS & DATABASES -->
+
+    <div class="bottom-grid">
+
+        <!-- TOOLS -->
+
+        <div class="category-card pink">
+
+            <h3>
+                <i class="devicon-vscode-plain colored"></i>
+                Tools & IDEs
+            </h3>
+
+            <div class="tool-list">
+
+                <div class="tool">
+                    <i class="devicon-vscode-plain colored"></i>
+                    <p>VS Code</p>
+                </div>
+
+                <div class="tool">
+                    <i class="devicon-pycharm-plain colored"></i>
+                    <p>PyCharm</p>
+                </div>
+
+                <div class="tool">
+                    <i class="devicon-jupyter-plain colored"></i>
+                    <p>Jupyter</p>
+                </div>
+
+                <div class="tool">
+                    <i class="devicon-googlecolab-plain colored"></i>
+                    <p>Google Colab</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- DATABASES -->
+
+        <div class="category-card violet">
+
+            <h3>
+                <i class="devicon-mysql-plain colored"></i>
+                Databases & Others
+            </h3>
+
+            <div class="tool-list">
+
+                <div class="tool">
+                    <i class="devicon-mysql-plain colored"></i>
+                    <p>MySQL</p>
+                </div>
+
+                <div class="tool">
+                    <i class="devicon-git-plain colored"></i>
+                    <p>Git</p>
+                </div>
+
+                <div class="tool">
+                    <i class="devicon-github-original"></i>
+                    <p>GitHub</p>
+                </div>
+
+                <div class="tool">
+                    <i class="devicon-linux-plain colored"></i>
+                    <p>Linux</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+       
+<!-- ================= PROJECT SECTION ================= -->
+
+<section id="projects"  class="projects reveal">
+
+    <h2>🚀 My Projects</h2>
+
+    <div class="project-container">
+
+        <!-- Project 1 -->
+
+        <div class="project-card">
+
+            <!-- Uncomment this if you want to show an image -->
+            <!--
+            <div class="project-img">
+                <img src="Assets/student-performance.png" alt="Student Performance Prediction">
+            </div>
+            -->
+
+            <h3>Student Performance Prediction</h3>
+
+            <p>
+                Developed a Machine Learning model to predict student
+                academic performance using Python, Pandas, NumPy and
+                Scikit-learn. The project includes data preprocessing,
+                feature engineering, model training and evaluation.
+            </p>
+
+            <div class="tech">
+               
+                Python • Pandas • NumPy • Scikit-learn • Machine Learning
+            </div>
+
+            <div class="project-btn">
+
+                <a href="https://github.com/chaudharisayali512006-svg/marks-prediction" target="_blank">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+
+                <a href="https://marks-prediction-peeyyzvkbt2nfsbsinygpw.streamlit.app/" target="_blank">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <!--
+            <div class="project-img">
+                <img src="Assets/placement-prediction.png" alt="Placement Prediction System">
+            </div>
+            -->
+
+            <h3>Placement Prediction System</h3>
+
+            <p>
+                Built an AI/ML model to predict placement chances based on
+                students' academic performance and skill-related features
+                using classification algorithms.
+            </p>
+
+            <div class="tech">
+               
+                Python • Machine Learning • Classification • Data Analysis
+            </div>
+
+            <div class="project-btn">
+
+                <a href="https://github.com/chaudharisayali512006-svg/student-performance" target="_blank">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+
+                <a href="https://student-performance-3nheu7bc8wic3jsljprsxi.streamlit.app/" target="_blank">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Project 3 -->
+
+        <div class="project-card">
+
+            <!--
+            <div class="project-img">
+                <img src="Assets/portfolio.png" alt="Portfolio Website">
+            </div>
+            -->
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                Designed and developed a responsive personal portfolio
+                website to showcase my skills, projects, certifications
+                and achievements using modern web technologies.
+            </p>
+
+            <div class="tech">
+                
+                HTML • CSS • JavaScript
+            </div>
+
+            <div class="project-btn">
+
+                <a href="YOUR_GITHUB_LINK" target="_blank">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+
+                <a href="YOUR_PORTFOLIO_LINK" target="_blank">
+                    <i class="fa-solid fa-globe"></i> Live Website
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CERTIFICATES SECTION ================= -->
+
+<section id="certificates" class="certificates reveal">
+
+    <div class="section-title">
+        <h2>🏆 Certificates</h2>
+        <p>My certifications, training programs and achievements.</p>
+    </div>
+
+    <div class="timeline">
+
+        <!-- Certificate 1 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">2024</div>
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <div class="certificate-logo">
+                    <img src="Assets/nptel.jpg" alt="NPTEL">
+                </div>
+
+                <div class="certificate-info">
+
+                    <h3>Database Management Systems</h3>
+
+                    <h4>NPTEL</h4>
+
+                    <p>
+                        Successfully completed the NPTEL Database
+                        Management Systems course.
+                    </p>
+
+                </div>
+
+                <a href="Assets/DBMS certificate.pdf" target="_blank" class="certificate-btn">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Certificate 2 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">2025</div>
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <div class="certificate-logo">
+                    <img src="Assets/IIT bombay.jpg" alt="IIT Bombay">
+                </div>
+
+                <div class="certificate-info">
+
+                    <h3>Java Training</h3>
+
+                    <h4>Spoken Tutorial – IIT Bombay</h4>
+
+                    <p>
+                        Successfully completed Java Programming
+                        training conducted by IIT Bombay.
+                    </p>
+
+                </div>
+
+                <a href="Assets/java spokent tut-Certificate.pdf" target="_blank" class="certificate-btn">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+    <!-- Certificate 4 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">2025</div>
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <div class="certificate-logo">
+                    <img src="Assets/SIH.jpg" alt="SIH">
+                </div>
+
+                <div class="certificate-info">
+
+                    <h3>Smart India Hackathon 2025</h3>
+
+                    <h4>Participant</h4>
+
+                    <p>
+                        Participated in Smart India Hackathon (SIH) 2025,
+                        collaborating on innovative real-world problem solving.
+                    </p>
+
+                </div>
+
+                <a href="Assets/SIH certificate.pdf" target="_blank" class="certificate-btn">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+        <!-- Certificate 3 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">2026</div>
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <div class="certificate-logo">
+                    <img src="Assets/supratech.jpg" alt="Supratech AI">
+                </div>
+
+                <div class="certificate-info">
+
+                    <h3>AI/ML Internship</h3>
+
+                    <h4>Supratech AI Innovation & Software</h4>
+
+                    <p>
+                        Successfully completed Artificial Intelligence
+                        and Machine Learning Internship Program.
+                    </p>
+
+                </div>
+
+                <a href="Assets/AIML int certificate (4).pdf" target="_blank" class="certificate-btn">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--================ CONTACT SECTION ================-->
+
+<section id="contact" class="contact reveal">
+
+    <div class="section-title">
+        <h2>📬 Contact Me</h2>
+        <p>Feel free to connect with me for opportunities, collaborations or just to say hello.</p>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Left Side -->
+
+        <div class="contact-info">
+
+            <h3>Let's Connect</h3>
+
+            <p>
+                I'm always interested in AI/ML projects, internships,
+                hackathons and placement opportunities.
+            </p>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>chaudharisayali512006@gmail.com</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>linkedin.com/in/sayali-chaudhari-098ba83a6</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <span>github.com/chaudharisayali512006-svg</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Nashik, Maharashtra, India</span>
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <form id="contact-form" class="contact-form">
+
+    <input type="text" name="from_name" placeholder="Your Name" required>
+
+    <input type="email" name="from_email" placeholder="Your Email" required>
+
+    <input type="text" name="subject" placeholder="Subject" required>
+
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+    <button type="submit">
+        <i class="fa-solid fa-paper-plane"></i>
+        Send Message
+    </button>
+
+</form>
+
+    </div>
+
+</section>
+<!--================ FOOTER ================-->
+
+<footer class="footer reveal">
+
+    <h2>Sayali Chaudhari</h2>
+
+    <p>AI/ML Enthusiast | Information Technology Student</p>
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#certificates">Certificates</a>
+
+        <a href="#contact">Contact</a>
+
+    </div>
+
+    <div class="footer-social">
+
+        <a href="https://github.com/chaudharisayali512006-svg" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sayali-chaudhari-098ba83a6/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:chaudharisayali512006@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+    </div>
+
+    
+    <p class="copyright">
+        © 2026 Sayali Chaudhari. All Rights Reserved.
+    </p>
+
+</footer>
+<!-- Scroll To Top Button -->
+
+<button id="topBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
